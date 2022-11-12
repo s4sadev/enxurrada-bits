@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.cabeçalho{
+    text-align: center;
+    background-color: #21022d;
+    color: white;
+    padding: 8px;
+}
+
+#corpo {
+    margin: 24px;
+    background-color: #e2d8e7;
+    color: #21022d;
+    padding: 16px;
+}
+
+.vitaminas {
+    margin-top: 32px;
+    margin-left:64px;
+}
+
+.vitaminas img {
+    width: 150px;
+    height: 150px;
+}
+
+.intolerancia {
+    margin-top: 64px;
+    text-align: center;
+}
+
+.intolerancia img {
+    width: 600px;
+    height: 300px;
+    margin: 32px;
+}

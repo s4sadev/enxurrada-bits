@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration-line: none;
+  padding: 5px;
+}
+
+header ul {
+  list-style-type: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: #798659;
+  color: #ffffff;
+}
+
+
+h1 {
+  color: #424833;
+}
+
+h1:hover {
+  color: #ffffff;
+  animation-name: titulo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes titulo {
+  15% {
+    transform: translate(10px);
+  }
+
+  40% {
+    transform: translate(-10px); 
+  }
+
+  60% {
+    transform: translate(10px);
+  }
+
+  80% {
+    transform: translate(-10px);
+  }
+
+  100% {
+    transform: translate(10px);
+  }
+  
+}
+
+
+nav a{
+  border: solid #798659 5px;
+
+}
+  
+nav a:hover {
+  color: #424833;
+  cursor: pointer;
+  animation-name: borda;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier;
+    
+}
+  
+@keyframes borda {
+  20% { 
+    border-bottom-color: white;
+  }
+  40% {
+    border-right-color: white;
+  }
+  60% {
+    border-top-color: white;
+  }
+  80% {
+    border-left-color: white;
+  } 
+  100% {
+    border-bottom-color: white;
+  }  
+}
+  
+li a:active {
+  background-color: white;
+}
+
+
+section {
+  margin: 25px;
+  border: solid #798659;
+  border-radius: 15px;
+  background-color: #798659;
+}
+
+article {
+  border: solid #798659;
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.saud {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 1100px;
+  text-align: justify;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 1100px;
+  text-align: justify;
+  font-size: 14px;
+}
+
+div a:link{
+  color: #2e3125;
+}
+
+div a:visited {
+  color: #a4b47b;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+}
+
+ article iframe {
+  width: 80%;
+  height: 100%;
+}
+
+h2 {
+  padding: 10px;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #4f573a;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 15px;
+}
+
