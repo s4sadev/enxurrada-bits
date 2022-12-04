@@ -11,6 +11,5 @@ for (num1; num1 <= num2; ++num1) {
   if (num1 % 2 == 1) {
     soma += num1
   }
-  alert('A soma de todos os numeros impares dentro deste intervalo é: ' + soma)
-
 }
+alert('A soma de todos os numeros impares dentro deste intervalo é: ' + soma)
