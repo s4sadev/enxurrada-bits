@@ -13,4 +13,4 @@ function media(soma, limite) {
   return soma / limite
 }
 
-alert("A media dos valores é:" + media(soma,limite))
+alert("A media dos valores é: " + media(soma,limite))
