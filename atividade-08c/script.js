@@ -18,4 +18,4 @@ while ( repete < limite) {
   repete++
   soma =  soma + num
   }
-alert('A média dos valores é: ' + soma / limite)
+alert('A soma dos valores é: ' + soma + '\n' + 'A media dos valores é: ' + (soma/limite))
