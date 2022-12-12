@@ -1,0 +1,26 @@
+body {
+    color: white;
+    background-color: rgb(46, 47, 73);
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: justify;
+    margin: 25px;
+    border: solid rgb(39, 42, 44);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(39, 45, 51);
+}
+
